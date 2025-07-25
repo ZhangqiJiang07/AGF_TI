@@ -68,7 +68,7 @@ for ds_i = 1:length(dataName)
     best_rho = 0; best_beta = 0;
     time_record = 0;
 
-    params.maxIter = 30;
+    params.maxIter = 15;
     params.lambda = num_views^2;
     % Grid search for trade-off parameters
     rho_set =  1:3;

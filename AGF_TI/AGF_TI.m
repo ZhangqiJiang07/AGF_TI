@@ -30,7 +30,7 @@ function [Ypred, Out] = AGF_TI(tensor_Z, num_class, Ll, existing_index, params)
 %                       the final representation of the fused anchors
 %              - Out.alpha: matrix, (V, 1)
 %                           the final weights of the views
-% Requres:
+% Requires:
 %       - EProjSimplex_new.m
 %       - AGF_TI_grad.m
 %       - AGF_TI_cost.m

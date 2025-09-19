@@ -1,17 +1,23 @@
 # Adversarial Graph Fusion for Incomplete Multi-view Semi-supervised Learning with Tensorial Imputation
+## 💭 Sub-Cluster Problem
+<img src="./src/motivation_method.png"/>
 
+We observe that the view missing issue will incur unreliable neighbor relationships, thus breaking the key _smoothness assumption_ in label propagation (LP).
+As shown in subfigures (A) and (B), missing samples in each view may generate multiple ''vacuum regions'' that fragment a complete category cluster into several _sub-clusters_, thereby distorting the smooth local structure on the common manifold. We term this phenomenon the **S**ub-**C**luster **P**roblem (SCP).
+Comparing subfigures (C) and (D), one could observe that SCP impedes the propagation of red label information to its corresponding sub-cluster, erroneously making the decision boundary recede into the vacuum region.
 
-## Requirements
+## 🌔 AGF-TI
+### Requirements
 - MATLAB 2022a (64-bit)
 
-## Content
+### Content
 - `AGF_TI.m`: the proposed **AGF-TI** method, whose optimization procedure is summarized in Algorithm 2.
 - `AGF_TI_grad.m`: calculate the reduced gradient $\mathbf{g}$.
 - `AGF_TI_cost.m`: update the fused bipartite graph $\mathbf{P}$ and compute the cost for optimal step length search $\theta$.
 - `AGF_TI_update.m`: the implementation of the optimal step length search process and update the view weight coefficients $\boldsymbol{\alpha}$.
 
 
-## Usage
+### Usage
 To classify the unlabeled instances in the incomplete multi-view semi-supervised learning task, you can run the following command in MATLAB:
 
 ```matlab

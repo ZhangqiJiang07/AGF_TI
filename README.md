@@ -49,3 +49,7 @@ To classify the unlabeled instances in the incomplete multi-view semi-supervised
     - *Out.F*: the final representation of the fused labeled and unlabeled instances, $(n, c)$
     - *Out.Q*: the final representation of the fused anchors, $(m, c)$
     - *Out.alpha*: the final weights of the views, $(V, 1)$
+
+
+### Datasets
+More datasets can be found [here](https://github.com/ZhangqiJiang07/Multi-view_Multi-class_Datasets).

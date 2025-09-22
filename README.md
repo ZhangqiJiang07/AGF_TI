@@ -1,4 +1,6 @@
 # Adversarial Graph Fusion for Incomplete Multi-view Semi-supervised Learning with Tensorial Imputation
+[![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2509.15955)
+
 ## 💭 Sub-Cluster Problem
 <img src="./src/motivation_method.png"/>
 
@@ -53,3 +55,15 @@ To classify the unlabeled instances in the incomplete multi-view semi-supervised
 
 ### Datasets
 More datasets can be found [here](https://github.com/ZhangqiJiang07/Multi-view_Multi-class_Datasets).
+
+
+## Citation
+Please cite our paper if it's helpful to your work!
+```
+@article{jiang2025AGF_TI,
+  title={Adversarial Graph Fusion for Incomplete Multi-view Semi-supervised Learning with Tensorial Imputation},
+  author={Jiang, Zhangqi and Luo, Tingjin and Yang, Xu and Xinyan, Liang},
+  journal={arXiv preprint arXiv:2509.15955},
+  year={2025}
+}
+```

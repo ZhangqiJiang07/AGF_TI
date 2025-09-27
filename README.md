@@ -1,5 +1,7 @@
 # Adversarial Graph Fusion for Incomplete Multi-view Semi-supervised Learning with Tensorial Imputation
-[![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2509.15955)
+<a href="https://arxiv.org/abs/2509.15955" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-AGF--TI-red?logo=arxiv" height="25" />
+</a>
 
 ## 💭 Sub-Cluster Problem
 <img src="./src/motivation_method.png"/>
